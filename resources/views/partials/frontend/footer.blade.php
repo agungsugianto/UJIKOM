@@ -21,7 +21,8 @@
 					<div class="footerLink">
 						<h5>Toko</h5>
 						<ul class="list-unstyled">
-							<li>Kami mempunyai 2 cabang toko</li>
+							<li>Kami mempunyai 2 cabang toko dan kami punya lapak berbasis online di
+							 <a href="https://www.tokopedia.com/kezacc"><font color="blue">Dunia Aksesoris</font></a></li>
 						</ul>
 					</div>
 				</div>

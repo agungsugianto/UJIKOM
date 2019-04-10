@@ -38,3 +38,4 @@ Route::resource('index','FrontendController');
 Route::get('/','FrontendController@index')->name('index');
 Route::get('/product','FrontendController@product')->name('product');
 Route::get('/product/kategori/{kategori}', 'FrontendController@barangkategori');
+Route::get('/search','FrontendController@search')->name('search');	

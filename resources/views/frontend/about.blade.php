@@ -79,7 +79,8 @@
 						<img src="/img/toko.jpg" alt="about-us-img">
 					</div>
 					<div class="col-md-6 order-sm-1">
-						<p>Tentang web ini kami hanya memberi informasi saja . Tidak ada transaksi atau jual beli online , tapi di web site ini Anda bisa melihat produk-produk atau barang yang di sediakan oleh kami . Jika Anda tertarik dengan produk yang di sediakan oleh kami Anda bisa datang ke alamat ini</p>
+						<p>Tentang web ini kami hanya memberi informasi saja . Tidak ada transaksi atau jual beli online , tapi di web site ini Anda bisa melihat produk-produk atau barang yang di sediakan oleh kami . Jika Anda tertarik dengan produk yang di sediakan oleh kami Anda bisa datang ke alamat ini.
+						Bisa di kunjungi langsung juga di <a href="https://www.tokopedia.com/kezacc"><font color="blue">Dunia Aksesoris</font></a></p>
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.316395622828!2d107.58289831410342!3d-6.971935494963263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9286c4bae47%3A0x61ba1f705eb5a06b!2sJl.+Sukamenak+No.124%2C+Sukamenak%2C+Margahayu%2C+Bandung%2C+Jawa+Barat+40227!5e0!3m2!1sid!2sid!4v1539154814370" width="500" height="436" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 				</div>
